@@ -49,6 +49,7 @@ A real-time product search component might look like this::
         >
 
         <ul>
+            {# remember: "`.products`" accessor checks at least if a "`getProducts()`" method exists #}
             {% for product in this.products %}
                 <li>{{ product.name }}</li>
             {% endfor %}
