@@ -181,7 +181,7 @@ situation.
 
 
 4. Flash Messages and forward-fetching side effects
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Of course, if you have side effects, like added `Flash Messages <https://symfony.com/doc/current/session.html#flash-messages>`_ 
 to your form submissions, they will be flushed during the asynchronous call.
